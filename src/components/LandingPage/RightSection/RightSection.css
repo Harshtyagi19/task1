@@ -1,0 +1,72 @@
+.backgroundSection {
+    height: 100vh;
+    width: 50vw;
+}
+
+.rightContainer{
+    
+     height:100%;
+    width:80%;
+    margin: 10% auto;
+    padding:3%; 
+    text-align: center;
+}
+
+.form{
+    margin:40px;
+}
+
+.formInput{
+    display: flex;;
+    text-align: center;
+    width:70%;
+    padding: 3%;
+    margin:10px auto;
+
+border: 1px solid #464660;
+border-radius: 10px;
+  
+}
+.formInput input{
+   border:none;
+   flex:1;
+   opacity: 0.45;
+}
+.loginBtn{
+background: #020100;
+box-shadow: 0px 20px 32px rgba(2, 1, 0, 0.42);
+border-radius: 10px;
+color:white;
+width: 410px;
+height: 49px;
+margin:10px;
+padding:5px;
+}
+.password{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+   
+    text-align: center;
+    
+    color: #667085;
+    
+    opacity: 0.5;
+}
+
+.footerRight {
+    width: 360px;
+    height: 49px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: end;
+    color: #667085;
+    margin-top: 20px; /* Add margin-top to create space between button and footer */
+  }

@@ -1,0 +1,50 @@
+.leftBackground{
+    height:100vh;
+    width:50vw;
+}
+
+.leftContainer{
+    background-image:url('../../../assets/rectangle15.svg'); ;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height:100%;
+    width:80%;
+    margin: 10% auto;
+    padding:3%; 
+}
+.textWhite{
+    color:white;
+}
+
+.info{
+    margin-top:35%;
+    margin-bottom:50px;
+}
+.infoHeader{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+
+}
+
+.infoText{
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-size: 38px;
+    margin-top: 5px;
+   
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    
+}
+
+.socialIcons img{
+    margin-left: 4px;
+    margin-right: 4px;
+}
